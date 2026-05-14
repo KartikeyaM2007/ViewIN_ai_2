@@ -10,7 +10,7 @@ const monaSans = Mona_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "InView.AI",
+  title: "LeLo_InterView",
   description: "An AI-powered platform for preparing for mock interviews",
 };
 

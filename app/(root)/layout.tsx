@@ -20,7 +20,7 @@ const Layout = async ({ children }: { children: ReactNode }) => {
             height={32}
             style={{ height: "auto" }}
           />
-          <h2 className="text-primary-100">InView.AI</h2>
+          <h2 className="text-primary-100">LeLo_InterView</h2>
         </Link>
 
         {/*  Sign Out button */}

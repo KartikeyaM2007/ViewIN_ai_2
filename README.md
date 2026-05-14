@@ -1,6 +1,6 @@
-# Inview_AI
+# LeLo_InterView
 
-Inview_AI is a modern web application built with **Next.js**, designed to streamline interview creation, participation, and feedback. It leverages **Firebase**, **NextAuth**, and **TailwindCSS** with support from **shadcn/ui** components for a stylish, responsive experience.
+LeLo_InterView is a modern web application built with **Next.js**, designed to streamline interview creation, participation, and feedback. It leverages **Firebase**, **NextAuth**, and **TailwindCSS** with support from **shadcn/ui** components for a stylish, responsive experience.
 
 ## 🌐 Live Production Link
 👉 **[https://view-in-ai-2.vercel.app/](https://view-in-ai-2.vercel.app/)**
