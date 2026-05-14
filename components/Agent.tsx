@@ -145,7 +145,7 @@ const Agent = ({
   };
 
   return (
-    <>
+    <div className="relative flex flex-col gap-12 w-full">
       <div className="call-view">
         {/* AI Interviewer Card */}
         <div className="card-interviewer">
@@ -198,7 +198,6 @@ const Agent = ({
           <button className="relative btn-call" onClick={() => handleCall()}>
             <span
               className={cn(
-                
                 "absolute animate-ping rounded-full opacity-75",
                 callStatus !== "CONNECTING" && "hidden"
               )}
@@ -216,7 +215,7 @@ const Agent = ({
           </button>
         )}
       </div>
-    </>
+    </div>
   );
 };
 
