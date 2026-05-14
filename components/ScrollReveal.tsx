@@ -60,6 +60,7 @@ export default function ScrollReveal({
   return (
     <motion.div
       ref={ref}
+      className="relative"
       initial={getVariants()}
       animate={controls}
     >

@@ -35,6 +35,7 @@ export default function ScrollFadeIn({ children, delay = 0 }: Props) {
   return (
     <motion.div
       ref={ref}
+      className="relative"
       initial={{ opacity: 0, y: 40 }}
       animate={controls}
     >

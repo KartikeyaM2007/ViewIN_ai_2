@@ -92,7 +92,7 @@ const LandingPage = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-black text-white overflow-x-hidden selection:bg-violet-500/30 font-sans">
+    <div className="relative min-h-screen bg-black text-white overflow-x-hidden selection:bg-violet-500/30 font-sans">
       
       {/* Background elements for the rest of the page */}
       <div className="fixed inset-0 z-0 h-full w-full bg-black bg-[linear-gradient(to_right,#80808008_1px,transparent_1px),linear-gradient(to_bottom,#80808008_1px,transparent_1px)] bg-[size:24px_24px]">
