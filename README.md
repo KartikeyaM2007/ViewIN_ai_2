@@ -32,8 +32,8 @@ LeLo_InterView is a modern web application built with **Next.js**, designed to s
 
 
 ```
-git clone https://github.com/yourusername/inview_ai.git
-cd inview_ai/inview_ai
+git clone https://github.com/yourusername/lelo_interview.git
+cd lelo_interview
 ```
 
 ## 2. Install Dependencies
@@ -58,7 +58,7 @@ npm run dev
 ## 5. Project Structure
 
 ```
-inview_ai/
+lelo_interview/
 ├── app/                  # Application routes
 │   ├── (auth)/           # Sign in / Sign up pages
 │   ├── (root)/           # Main app routes like dashboard, interview

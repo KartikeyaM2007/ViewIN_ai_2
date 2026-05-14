@@ -104,7 +104,7 @@ const LandingPage = () => {
       <header className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-black/60 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 group">
-            <span className="text-lg font-bold tracking-tight">InView.ai</span>
+            <span className="text-lg font-bold tracking-tight">LeLo_InterView</span>
           </Link>
 
           <div className="flex items-center gap-4 ml-auto">
@@ -337,7 +337,7 @@ const LandingPage = () => {
             <div className="relative z-10">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">Ready to ace the interview?</h2>
               <p className="text-gray-400 mb-8 max-w-lg mx-auto">
-                Join engineers who use InView to polish their pitch and perfect their technical explanations.
+                Join engineers who use LeLo_InterView to polish their pitch and perfect their technical explanations.
               </p>
               <Link href="/dashboard">
                 <Button className="h-14 px-8 rounded-full bg-white text-black hover:bg-slate-200 text-lg font-semibold transition-transform hover:-translate-y-1">
@@ -353,12 +353,12 @@ const LandingPage = () => {
       <footer className="bg-black border-t border-white/5 relative flex flex-col items-center overflow-hidden">
         <div className="relative w-full pt-20 pb-6 px-6">
             <div className="absolute inset-0 flex items-center justify-center pointer-events-none select-none z-0">
-            <h1 className="text-[18vw] font-bold text-white/[0.05] tracking-tighter leading-none whitespace-nowrap">
-                InView.AI
+            <h1 className="text-[10vw] font-bold text-white/[0.05] tracking-tighter leading-none whitespace-nowrap">
+                LeLo_InterView
             </h1>
             </div>
             <div className="max-w-7xl mx-auto w-full relative z-10 flex flex-col min-h-[100px] items-center justify-end">
-                <p className="text-gray-500 text-sm">© 2026 InView.ai</p>
+                <p className="text-gray-500 text-sm">© 2026 LeLo_InterView</p>
             </div>
         </div>
       </footer>
