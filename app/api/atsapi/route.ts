@@ -37,7 +37,7 @@ export async function POST(request: Request) {
     }
 
     const { text: parsedText } = await generateText({
-      model: google("gemini-2.5-flash"),
+      model: google("gemini-2.0-flash"),
       prompt: `
 You are a precise resume parser.
 
@@ -86,7 +86,7 @@ ${parsedText}
 `;
 
     const { text: geminiResponse } = await generateText({
-      model: google("gemini-2.5-flash"),
+      model: google("gemini-2.0-flash"),
       prompt: atsPrompt,
     });
 

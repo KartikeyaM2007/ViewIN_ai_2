@@ -46,7 +46,7 @@ export async function POST(req: NextRequest) {
     }
 
     const { text: extractedDetails } = await generateText({
-      model: google("gemini-2.5-flash"),
+      model: google("gemini-2.0-flash"),
       prompt: `
 You are a resume information extractor.
 
@@ -87,7 +87,7 @@ ${resumeText}
       );
     }
     const { text: questions } = await generateText({
-      model: google("gemini-2.5-flash"),
+      model: google("gemini-2.0-flash"),
       prompt: `
 Generate 5 technical interview questions based on this candidate's resume:
 
