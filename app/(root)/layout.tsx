@@ -13,7 +13,13 @@ const Layout = async ({ children }: { children: ReactNode }) => {
     <div className="root-layout">
       <nav className="flex justify-between items-center p-4">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/logo.svg" alt="MockMate Logo" width={38} height={32} />
+          <Image
+            src="/logo.svg"
+            alt="MockMate Logo"
+            width={38}
+            height={32}
+            style={{ height: "auto" }}
+          />
           <h2 className="text-primary-100">InView.AI</h2>
         </Link>
 
